@@ -1,0 +1,19 @@
+{
+    "name": "sdshaoda/hello",
+    "description": "say hello",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sdshaoda",
+            "email": "sdshaoda@126.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
